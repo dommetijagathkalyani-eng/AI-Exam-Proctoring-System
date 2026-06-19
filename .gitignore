@@ -1,0 +1,42 @@
+# Python cache/bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE/system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local databases and runtime artifacts
+database/*.db
+*.db
+logs/*
+!logs/.gitkeep
+violations_log.csv
+
+# Model/runtime generated artifacts
+known_faces/*.jpg
+known_faces/*_debug.jpg
+known_faces/*_temp.jpg
+known_faces/encodings.pkl
+
+# Test/debug outputs
+*_diff.txt
+app_diff.txt
+students_diff.txt
+registered_face.jpg
+models/student.jpg
+
+# Temporary scripts/docs
+TODO.md
+
+# Keep important source files tracked
+!known_faces/.gitkeep
+
